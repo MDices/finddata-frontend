@@ -3,10 +3,8 @@
   "version": "8.0.37",
   "private": true,
   "scripts": {
-    "test": "mocha ./test/* --exit",
+    "test": "jest",
     "postinstall": "npm run build",
-    "start": "node server.js",
-    "dev": "nodemon index.js",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
